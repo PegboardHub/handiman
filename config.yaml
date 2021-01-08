@@ -1,0 +1,7 @@
+options:
+  - description: "clone repos"
+    key: clone repos
+    steps:
+      - description: "clone repositories"
+        shell:
+          - bash ./assets/clone.sh
