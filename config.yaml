@@ -1,7 +1,8 @@
 options:
-  - description: "clone repos"
-    key: clone repos
+  - description: "add VSCode workspace config"
+    key: VSCode workspace
     steps:
-      - description: "clone repositories"
-        shell:
-          - bash ./assets/clone.sh
+      - description: "linking config file to PegboardHub directory"
+        links:
+          ~/git/pegboardhub/Pegboard.code-workspace: assets/Pegboard.code-workspace
+        
