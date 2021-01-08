@@ -11,7 +11,7 @@ get_abs_path() {
 }
 
 PEGBOARD_PATH=$(get_abs_path)
-echo "$PEGBOARD_PATH" >> ~/.aliases
+grep -qxF 'PEGBOARD_PATH' ~/.aliases || echo "alias PEGBOARD_PATH=\"$PEGBOARD_PATH\"" >> ~/.aliases
 
 source ~/.aliases
 cd "$PEGBOARD_PATH/handyman/"
