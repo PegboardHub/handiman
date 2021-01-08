@@ -1,6 +1,12 @@
 # Handyman repo
 ## Dev utilities for the Pegboard application
 
+This repo requires fast-installer python package for installations:
+
+```bash
+pip install fast-installer
+```
+
 
 for new user start with:
 ```bash
