@@ -9,6 +9,7 @@ curl https://raw.githubusercontent.com/PegboardHub/handyman/master/setup.sh | ba
 
 existing user:
 ```bash
-cd $
-
+cd $PEGBOARD_PATH/handyman
+git pull
+fastinstall
 ```
