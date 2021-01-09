@@ -1,34 +1,36 @@
 {
-	"folders": [
-		{
-			"path": "concrete"
-		},
-		{
-			"path": "pegboard"
-		},
-		{
-			"path": "handyman"
-		}
-	],
-	"remoteAuthority": "wsl+Ubuntu-20.04",
-	"settings": {
-		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": true
-		},
-		"eslint.validate": [
-			"javascript"
-		],
-		"[javascriptreact]": {
-			"editor.tabSize": 2
-		},
-		"[py]": {
-			"editor.tabSize": 4
-		},
-		"[html]": {
-			"editor.tabSize": 4
-		},
-		"[javascript]": {
-			"editor.tabSize": 2
-		}
-	}
+  "folders": [
+    {
+      "path": "concrete"
+    },
+    {
+      "path": "pegboard"
+    },
+    {
+      "path": "handyman"
+    }
+  ],
+  "remoteAuthority": "wsl+Ubuntu-20.04",
+  "settings": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "eslint.validate": ["javascript"],
+    "[jsonc]": {
+      "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+      "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+      "editor.tabSize": 2
+    },
+    "[py]": {
+      "editor.tabSize": 4
+    },
+    "[html]": {
+      "editor.tabSize": 4
+    },
+    "[javascript]": {
+      "editor.tabSize": 2
+    }
+  }
 }
