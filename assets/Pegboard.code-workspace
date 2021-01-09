@@ -32,5 +32,14 @@
     "[javascript]": {
       "editor.tabSize": 2
     }
-  }
+  },
+  "extensions": {
+    "recommendations": [
+      "rvest.vs-code-prettier-eslint",
+      "esbenp.prettier-vscode",
+			"dbaeumer.vscode-eslint",
+			"jpoissonnier.vscode-styled-components",
+			"ms-python.python"
+    ]
+	}
 }
