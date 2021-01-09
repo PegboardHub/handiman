@@ -11,5 +11,24 @@
 		}
 	],
 	"remoteAuthority": "wsl+Ubuntu-20.04",
-	"settings": {}
+	"settings": {
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"eslint.validate": [
+			"javascript"
+		],
+		"[javascriptreact]": {
+			"editor.tabSize": 2
+		},
+		"[py]": {
+			"editor.tabSize": 4
+		},
+		"[html]": {
+			"editor.tabSize": 4
+		},
+		"[javascript]": {
+			"editor.tabSize": 2
+		}
+	}
 }
